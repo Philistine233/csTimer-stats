@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { ParseError, parseCsv, parseDate, parseTime } from "./parse";
+import { ParseError, parseCsv, parseDate, parseTime } from "../../src/core/parse";
 
 describe("parseTime", () => {
   it("parses a normal m:ss.xx time", () => {
